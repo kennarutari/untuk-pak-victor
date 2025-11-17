@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dari Mantan Kelas 10-I 😎</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-hbd">
+        <div class="balon"></div>
+        <div class="balon"></div>
+        <div class="balon"></div>
+        <div class="balon"></div>
+        <div class="balon"></div>
+        <h1>Selamat Tambah Umur Pak Victor 🙂‍↕️🙂‍↕️🥳🥳</h1>
+        <h2>Ettt tunggu dulu! 10-I punya kado nih!</h2>
+        <p>
+          Coba ustadz kerjain pertanyaan-pertanyaan dibawah ini. Hukumnya WAJIB
+        </p>
+      </div>
+
+      <div id="start-screen">
+        <div class="message">
+          <p>Karena humor ustadz terlalu unik,</p>
+          <p>Kita kasih pertanyaan yang seunik humor ustadz juga!</p>
+          <p>Selamat mengerjakan!</p>
+        </div>
+        <button id="start-btn" class="submit-btn">Mulai Kerjakan</button>
+      </div>
+
+      <div id="riddle-screen" class="hidden">
+        <div class="progress">
+          <div class="progress-step" id="step1">1</div>
+          <div class="progress-step" id="step2">2</div>
+          <div class="progress-step" id="step3">3</div>
+        </div>
+
+        <div class="riddle-container">
+          <div class="riddle" id="riddle-text">
+            Pertanyaan akan muncul disini
+          </div>
+          <input
+            type="text"
+            class="answer-input"
+            id="answer-input"
+            placeholder="Ketik jawaban disini..."
+          />
+          <div id="feedback" class="feedback-hidden"></div>
+          <button id="submit-btn" class="submit-btn">Submit Jawaban</button>
+          <button id="next-btn" class="submit-btn hidden">Selanjutnya</button>
+          <button id="show-answer-btn" class="submit-btn hidden">
+            Lihat Jawaban
+          </button>
+        </div>
+      </div>
+
+      <div id="unlock-screen" class="hidden">
+        <div class="message">
+          <h2>Selesaaaaaaaaaaiiiiiiiiii!</h2>
+          <p>Ini hadiah dari kita! 😎</p>
+        </div>
+        <button id="unlock-btn" class="unlock-btn">
+          Klik untuk lihat pesan dari kita!
+        </button>
+      </div>
+
+      <div id="message-screen" class="hidden">
+        <div class="birthday-message">
+          <p>
+            Ini tahun terakhir kita bisa kumpul untuk ngerayain ultah ustadz!
+            🙂‍↕️
+          </p>
+          <p>
+            Terima kasih ustadz atas ilmu dan kesabarannya selama ustadz
+            mengajar kami!
+          </p>
+          <p>
+            Kami minta maaf kalau pernah melakukan hal-hal yang gak berkenan di
+            hati ustadz yaa.
+          </p>
+          <p>
+            Doakan kami semua sukses dunia akhirat dan bisa mencapai mimpi
+            masing-masing!
+          </p>
+          <p>
+            Semoga ustadz panjang umur, dimudahkan segala urusannya dan
+            diberkahi hidupnya 😊
+          </p>
+        </div>
+        <button id="restart-btn" class="submit-btn">
+          Siapa Tau Mau Ngulang
+        </button>
+      </div>
+
+      <div class="signature">Dari 10-I 2023/2024 untuk Pak Victor!</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
